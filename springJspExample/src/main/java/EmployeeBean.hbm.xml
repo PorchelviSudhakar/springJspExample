@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 19 May, 2020 9:48:33 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.stpl.springJspExample.model.EmployeeBean" table="EMPLOYEE">
+        <id name="employeeid" type="int" access="field">
+            <column name="EMPLOYEEID" />
+            <generator class="assigned" />
+        </id>
+        <property name="employeeno" type="java.lang.Integer" access="field">
+            <column name="EMPLOYEENO" />
+        </property>
+        <property name="employeename" type="java.lang.String" access="field">
+            <column name="EMPLOYEENAME" />
+        </property>
+        <property name="employeesalary" type="java.lang.Integer" access="field">
+            <column name="EMPLOYEESALARY" />
+        </property>
+    </class>
+</hibernate-mapping>
