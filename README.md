@@ -24,7 +24,7 @@ the employee related inforation like employee id,employee name etc.
 
 ## Project Description
 1. In this project Dependency Injection configurations were done in spring-servlet.xml file in which <context:component-scan 
-base-package="com.stpl.assignment"/> this command allows us to create singleton object for all the classes under this package.
+base-package="com.stpl.springJspExample"/> this command allows us to create singleton object for all the classes under this package.
 2. .jsp files were used as a User Interface or Client-side.
 3. Dispatcher servlet leads to the registered controller.
 4. Service classes perform the CRUD operations into the database.
