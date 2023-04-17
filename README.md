@@ -1,4 +1,4 @@
-## springJspExample
+## Employee Management System usind JSP and Spring MVC
 
 springJspExample provides a simple Employee repository where one can store,update,delete and search 
 the employee related inforation like employee id,employee name etc.
